@@ -1,0 +1,857 @@
+
+                  /*-----FIRST SECTION-----*/
+/*-----------------------------------------------------------*/
+
+img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	overflow: hidden;
+}
+.overlay{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.textbox h3{
+   color: #fff;
+   margin-top: 19%;
+   margin-left: 75px;
+}
+.textbox h1{
+   color: #fff;
+   margin-left: 100px;
+   font-size: 55px;
+   font-weight: 100px;
+   margin-top: 40px;
+}
+.textbox h2{
+   color: lightgrey;
+   margin-left: 135px;
+   font-size: 40px;
+   margin-top: 20px;   
+}
+.textbox p{
+	color: lightgrey;
+	margin-left: 175px;
+	font-size: 16px;
+	margin-top: 25px;
+}
+button{
+	margin-left: 175px;
+	padding: 13px;
+	border: 1px solid lightgrey;	
+	width: 310px;
+	background: transparent;
+	color: #fff;
+	margin-top: 30px;
+	transition: background 0.7s;
+}
+button:hover{
+	background-color: grey;
+	background: grey;
+}
+.textbox ul{
+	flex: 1;
+	text-align: right;	
+}
+.textbox ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0 15px;
+	color: #fff;
+	margin-right: 35px;
+	margin-top: 20px;
+}
+.textbox a{
+	text-decoration: none;
+	color: #fff;
+}
+@keyframes textup{
+	10%{
+		transform: translateY(0px);
+	}
+	100%{
+		transform: translateY(0px);
+	}
+}
+.textbox h2{
+	animation: textup 5.5s linear infinite;	
+	transform: translateY(100px);
+}
+@keyframes textup{
+	10%{
+		transform: translateY(0px);
+	}
+	100%{
+		transform: translateY(0px);
+	}
+}
+.textbox h1{
+	animation: textup 6s linear infinite;	
+	transform: translateY(100px);
+}
+@keyframes textup{
+	10%{
+		transform: translateY(0px);
+	}
+	100%{
+		transform: translateY(0px);
+	}
+}
+.textbox p{
+	animation: textup 6.5s linear infinite;	
+	transform: translateY(100px);
+}
+@keyframes textup{
+	10%{
+		transform: translateY(0px);
+	}
+	100%{
+		transform: translateY(0px);
+	}
+}
+.button{
+	animation: textup 7s linear infinite;	
+	transform: translateY(100px);
+}
+@keyframes textup{
+	10%{
+		transform: translateY(0px);
+	}
+	100%{
+		transform: translateY(0px);
+	}
+}
+
+.textbox ul li{
+	animation: textup 7s linear infinite;	
+	transform: translateY(100px);
+}
+@keyframes textup{
+	10%{
+		transform: translateY(0px);
+	}
+	100%{
+		transform: translateY(0px);
+	}
+} 
+/*-----------------------------------------------------------*/    
+
+                 /*-----END OF FIRST SECTION-----*/
+
+/*-----------------------------------------------------------*/
+.container{
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+	height: 100vh;
+}
+
+.container{
+	scroll-behavior: smooth;
+}
+
+section{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*-----------------------------------------------------------*/
+ 
+                    /*-----SECOND SECTION-----*/
+.two {
+	height: 85vh;
+	overflow: hidden;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body{
+	background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));	
+}
+.wrapper{   
+   margin-top: 85px;
+}
+.wrapper h1{
+	font-size: 35px;
+	margin-bottom: 75px;
+	text-align: center;
+	color: rgb(77,77,77)
+}
+.team{
+	display: flex;
+	text-align: center;
+	width: auto;
+	justify-content: center;
+}
+.team .team_member{
+	background: #fff;
+	margin: 12px;
+	width: 370px;
+	padding: 20px;
+	line-height: 28px;
+	color: #8e8b8b;
+	position: relative;
+}
+.team .team_member h3{
+	color: black;
+	font-size: size 26px;
+	margin-top: 50px;
+}
+.team .team_member p.role{
+    color: grey;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+.team .team_member .team_img{
+	width: 100px;
+	height: 100px;
+	top: 20px;
+	position: relative;
+	left: 120px;
+}
+.textbox h3{
+	animation: textup 5s linear infinite;	
+	transform: translateY(100px);
+}
+             /*-----END OF SECOND SECTION-----*/
+
+/*-----------------------------------------------------------*/
+
+                /*-----INSERT SECTION-----*/
+.insert{
+	height: 100vh;		
+	position: relative;
+	overflow: hidden;	
+}	
+.overlay1{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.textboxx h2{
+	margin-top: 370px;
+	color: white;
+	text-align: center;
+	font-size: 37px;	
+}
+.textboxx ul{
+	flex: 1;
+	position: relative;
+	top: -388px;
+	left: 918px;
+}
+.textboxx ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0 8px;
+	color: #fff;
+	font-size: 15px;	
+}
+.textboxx a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+                  /*-----END OF INSERT-----*/
+
+/*-----------------------------------------------------------*/
+
+                    /*-----INSERT_2-----*/
+
+.insert_2{
+	height: 90vh;
+	overflow: hidden;
+	background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));	
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+	
+.wrapper_2{   
+   margin-top: 65px;
+}
+.wrapper_2 h1{
+	font-size: 35px;
+	margin-bottom: 55px;
+	text-align: center;	
+	color: rgb(77,77,77)		
+}
+.team_2{
+	display: flex;
+	text-align: center;
+	width: auto;
+	justify-content: center;
+}
+.team_2 .team_member_2{
+	background: #fff;
+	margin: 13px;
+	width: 470px;
+	padding: 30px;
+	line-height: 40px;
+	color: #8e8b8b;
+	position: relative;
+	border-radius: 50px;	
+}
+.team_2 .team_member_2 h3{
+	color: black;
+	font-size: size 26px;
+	margin-top: 50px;
+}
+
+.team_2 .team_member_2 .team_img_2{
+	width: 120px;
+	height: 120px;
+	top: 20px;
+	position: relative;
+	left: 148px;
+}
+p{
+	margin-top: 10px;
+}
+
+                 /*-----END OF INSERT_2-----*/
+
+/*-----------------------------------------------------------*/
+
+                   /*-----THIRD SECTION-----*/
+.three {
+	height: 75vh;
+	overflow: hidden;
+	background: url(http://hire-xamarin-developer.com/blog/wp-content/uploads/2016/10/a72edf4f921646a387436a0f52461991.jpg);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+.wrapper3{
+   margin-top: 70px;	
+}
+.wrapper3 h1{
+	font-size: 35px;
+	margin-bottom: -30px;
+	text-align: center;
+	color: #fff;
+}
+
+.team3{
+	display: flex;
+	text-align: center;
+	width: auto;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.team3 .team_member3{
+	background: transparent;
+	margin: 7.5px;
+	width: 340px;
+	padding: 18px;
+	line-height: 26px;
+	color: white;
+	position: relative;
+}
+.team3 .team_member3 h3{
+	color: white;
+	font-size: size 25px;
+	margin-top: 50px;
+}
+.team3 .team_member3 p.role3{
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+
+.team3 .team_member3 .team_img3{
+	width: 100px;
+	height: 100px;
+	top: 20px;
+	position: relative;
+	left: 104px;
+}
+    
+           /*-----END OF THIRD SECTION-----*/
+
+/*-----------------------------------------------------------*/
+
+                 /*-----THREE_2-----*/
+
+.three_2 {
+	height: 76vh;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapper1{  
+   margin-top: 50px;  
+}
+.wrapper1 h1{
+	font-size: 35px;
+	margin-bottom: 73px;
+	text-align: center;
+	color: rgb(77,77,77)
+   font-family: 'STIX Two Text', serif;
+}
+.team1{
+	display: flex;
+	text-align: center;
+	width: auto;
+	justify-content: center;
+}
+.team1 .team_member1{
+	background: white;
+	width: 370px;
+	padding: 10px;
+	line-height: 26px;
+	color: #8e8b8b;
+	position: relative;
+	margin: -30px;
+}
+.team1 .team_member1 h3{
+	color: rgb(16,13,128);
+	font-size: size 25px;
+	margin-top: 45px;
+	margin-right: 10px;
+}
+.team1 .team_member1 p.role1{
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 12px 0;
+    font-weight: bold; 
+    margin-right: 10; 
+}
+
+.team1 .team_member1 .team_img1{
+	width: 250px;
+	height: 270px;
+	top: 20px;
+	position: relative;
+	left: 50px;
+	border: 8px double black;
+}
+
+/*-------------------*/
+
+
+ .three_3 {
+	height: 59vh;
+	overflow: hidden;
+	background-color: white;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapper_3{  
+   margin-top: -30px;  
+}
+.wrapper_3 h1{
+	font-size: 35px;
+	margin-bottom: 65px;
+	text-align: center;
+	color: rgb(77,77,77)
+   font-family: 'STIX Two Text', serif;
+}
+.team_3{
+	display: flex;
+	text-align: center;
+	width: auto;
+	justify-content: center;
+}
+.team_3 .team_member_3{
+	background: white;
+	width: 370px;
+	padding: 10px;
+	line-height: 26px;
+	color: #8e8b8b;
+	position: relative;
+	margin: -30px;
+}
+.team_3 .team_member_3 h3{
+	color: rgb(16,13,128);
+	font-size: size 25px;
+	margin-top: 45px;
+	margin-right: 10px;
+}
+.team_3 .team_member_3 p.role_3{
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 12px 0;
+    font-weight: bold; 
+    margin-right: 10; 
+}
+
+.team_3 .team_member_3 .team_img_3{
+	width: 250px;
+	height: 270px;
+	top: 20px;
+	position: relative;
+	left: 50px;
+	border: 8px double black;
+}   
+
+                 /*-----END OFTHREE_2-----*/
+
+/*-----------------------------------------------------------*/
+
+                   /*-----INSERT_3-----*/
+
+.insert_3{
+	height: 50vh;
+	position: relative;
+}
+.main_text h1{
+   text-align: left;
+   font-size: 29px;
+   font-weight: 100px;
+   margin-bottom: 27px;
+ 
+}
+.main_text p{
+	position: relative;
+	margin-bottom: 122px;
+	color: grey;
+}
+
+.buttons button{
+	position: absolute;
+   left:37px;
+   top: 240px;
+   border: 3px solid rgb(0, 102, 180);;
+   background: rgb(0, 102, 180);
+   color: white;
+   width: 170px;
+   padding: 7px;
+   border-radius: 5px;
+}
+.main_text2 h1{
+	position: absolute;
+	top: 50px;
+	left: 800px;
+	font-size: 30px;
+}
+.main_text2 h2{
+	position: relative;
+	margin-left: 180px;
+	font-size: 15px;
+	bottom: -23px;
+	margin-top: -3px;
+	color: grey;
+}
+.main_text2 button{
+	position: relative;
+	margin-right: -100px;
+   border: 3px solid rgb(0, 102, 180);;
+   background: rgb(0, 102, 180);
+   color: white;
+   width: 450px;
+   padding: 1px;
+   border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------*/
+
+                 /*-----FIVE SECTION-----*/
+ 
+.five{
+	height: 90vh;	
+	position: relative;	
+}
+              /*-----END OF FIVE SECTION-----*/
+
+
+/*-----------------------------------------------------------*/
+ 
+                  /*-----SIX SECTION-----*/    
+
+.six{
+	text-align: center;
+	height: 85vh;
+	position: relative;
+	width: auto;
+   background-color: white ;
+}
+
+.wrapper5{   
+   margin-top: 60px;
+}
+.wrapper5 h1{
+	font-size: 35px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: rgb(25, 42, 55);
+}
+.wrapper5 p{
+   font-family: 'Raleway', sans-serif;
+   margin-bottom: 20px;
+   font-size: 17px;
+}
+
+.team5{
+	display: flex;
+	text-align: center;
+	width: auto;
+	justify-content: center;
+	margin-top: 60px;
+}
+.team5 .team_member5{
+	background: transparent;
+	margin: 12px;
+	width: 370px;
+	padding: 20px;
+	line-height: 28px;
+	color: #8e8b8b;
+	position: relative;
+}
+.team5 .team_member5 h3{
+	color: black;
+	font-size: size 26px;
+	margin-top: 50px;
+}
+.team5 .team_member5 p.role5{
+    color: grey;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+.team5 .team_member5 .team_img5{
+	width: 100px;
+	height: 100px;
+	top: 20px;
+	position: relative;
+	left: 120px;
+}
+.textbox5 h3{
+	animation: textup 5s linear infinite;	
+	transform: translateY(100px);
+}
+
+/*------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*------------------------------------------------------------------------------------*/
+
+.insert_6{
+	height: 95vh;
+	background-color: rgba(0,0,0,0.1)rgba(0,0,0,0.1);: ;
+	position: relative;
+	text-align: center;
+}
+.Textwrapper h1{
+	position: relative;
+	color:rgb(25, 42, 55);
+	font-size: 39px;
+	margin-bottom: 18px;
+}
+.Textwrapper p{
+	color: rgb(25, 42, 55);
+	margin-bottom: 580px;
+	font-size: 16px;
+}
+.textimage img{
+   height: 500px;
+	width: 1000px;
+	margin-top: 100px;
+	border: 1px solid black;
+}
+
+
+
+
+
+/*-------------------------------------------------------------------------------*/
+
+.insert_5 {
+	background-color:rgb(25, 42, 55);
+	height: 33vh;
+}
+.insert_5 h1{
+	text-align: center;
+	color: white;
+	font-size: 35px;
+}
+.insert_5 p{
+	text-align: center;
+	color: lightgrey;
+}
+
+/*-------------------------------------------------------------------------------*/
+.insert_7{
+	background-color:rgb(25, 42, 55);
+	height: 37vh;
+}
+.insert_7 h1{
+	text-align: center;
+	color: white;
+	font-size: 35px;
+	margin-bottom: 13px;
+}
+.insert_7 p{
+	text-align: center;
+	color: lightgrey;
+	margin-bottom: 7px;
+}
+.insert_7 a{
+	color: white;
+}
+
+
+
+/*------------------------------------------------------------------------------------*/
+.ending{
+	height: 40vh;
+	background-color:rgb(5,7,28);
+}
+
+.endpage{
+	position: relative;
+	text-align: center;
+}
+.endpage h1{
+	margin-bottom: 200px;
+	margin-right: 1420px;
+	color: #fff;
+	font-size: 47px;
+	font-family: 'Besley', serif;
+}
+.endpage p{
+	color: grey;
+   position: absolute;
+   top: 85px;
+   left: 0px;
+   font-size: 15px;
+}
+.endpage2{
+	position: absolute;
+	color: white;
+}
+.endpage2 h2{
+	position: absolute;
+	top: -60px;
+	left: -200px;
+
+}
+.endpage2 ul{
+	flex: 1;
+	text-align: left;	
+}
+.endpage2 ul li{
+   position: relative;
+	left: -205px;
+	color: #fff;
+	margin-right: 35px;
+	margin-top: 20px;
+	list-style: none;
+	margin: 8px;
+}
+
+.endpage3{
+	position: absolute;
+	color: white;
+}
+
+.endpage3 ul{
+	flex: 1;
+	text-align: left;	
+}
+.endpage3 ul li{
+   position: relative;
+	left: 130px;
+	color: #fff;
+	margin-right: 35px;
+	margin-top: 20px;
+	list-style: none;
+	margin: 8px;
+	top: -93px;
+	color: lightgrey;
+}
+.social-icons{
+	position: relative;
+}
+.social-icons img{
+	height: 37px;
+	width: 37px;
+	margin-left: 1320px;
+	top: -40px;
+}
+.icon2{
+	position: relative;
+}
+.icon2 img{
+	height: 37px;
+	width: 37px;
+	margin-left: 1365px;
+	top: -40px;
+}
+.icon3{
+	position: relative;
+}
+.icon3 img{
+	height: 38px;
+	width: 38px;
+	margin-left: 1410px;
+	top: -40px;
+}.icon4{
+	position: relative;
+}
+.icon4 img{
+	height: 37px;
+	width: 37px;
+	margin-left: 1455px;
+	top: -40px;
+}
+.icon5{
+	position: relative;
+}
+.icon5 img{
+	height: 37px;
+	width: 37px;
+	margin-left: 1500px;
+	top: -40px;
+}
